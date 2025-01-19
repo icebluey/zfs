@@ -36,6 +36,7 @@ tar -xof zfs-*.tar*
 sleep 1
 rm -f zfs-*.tar*
 cd zfs-*
+. /opt/rh/gcc-toolset-12/enable
 ./configure
 make -j1 rpm-utils rpm-dkms
 
