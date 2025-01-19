@@ -10,6 +10,8 @@ CXX=g++
 export CXX
 /sbin/ldconfig
 
+set -e
+
 _tmp_dir="$(mktemp -d)"
 cd "${_tmp_dir}"
 
