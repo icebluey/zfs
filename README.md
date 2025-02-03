@@ -29,6 +29,9 @@ kmod-zfs-6.12.12-20250202.el9.x86_64.x86_64                                     
 yum install kmod-zfs-6.12.12-20250202.el9.x86_64-2.3.0-1.el9
 
 yum reinstall zfs libnvpair3 libuutil3 libzfs6 libzpool6
+
+yum erase zfs libnvpair3 libuutil3 libzfs6 libzpool6
+
 ```
 
 ```
