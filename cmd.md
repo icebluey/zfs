@@ -9,6 +9,10 @@ zpool list
 
 zpool status
 
+zpool history
+zpool iostat -v
+
+
 创建 ZFS 文件系统
 zfs create myraidpool/myfs
 zfs set compression=lz4 myraidpool/myfs
