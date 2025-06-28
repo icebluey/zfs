@@ -10,4 +10,9 @@ wget -c -T 9 -t 9 -O /tmp/install-docker.sh \
 /bin/bash /tmp/install-for-docker.sh
 /bin/bash /tmp/install-docker.sh
 /bin/rm -vf /tmp/install-for-docker.sh /tmp/install-docker.sh
+echo
+echo
+df -h
+echo
+echo
 exit
