@@ -15,4 +15,7 @@ echo
 df -h
 echo
 echo
+/bin/ls -lah
+echo
+echo
 exit
